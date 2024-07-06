@@ -9,6 +9,10 @@ import { FooterComponent } from './shared/components/footer/footer.component';
 import { ComponentListComponent } from './pages/user/component-list/component-list.component';
 import { ComponentPageComponent } from './pages/user/component-page/component-page.component';
 import { SidebarComponent } from './shared/components/sidebar/sidebar.component';
+import { LoginOptionsComponent } from './pages/auth/login-options/login-options.component';
+import { LoginOtpComponent } from './pages/auth/login-otp/login-otp.component';
+import { LoginPasswordComponent } from './pages/auth/login-password/login-password.component';
+import { RegisterComponent } from './pages/auth/register/register.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { SidebarComponent } from './shared/components/sidebar/sidebar.component'
     FooterComponent,
     ComponentListComponent,
     ComponentPageComponent,
-    SidebarComponent
+    SidebarComponent,
+    LoginOptionsComponent,
+    LoginOtpComponent,
+    LoginPasswordComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
