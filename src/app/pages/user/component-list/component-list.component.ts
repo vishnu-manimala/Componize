@@ -8,7 +8,7 @@ import { Component, output } from '@angular/core';
 export class ComponentListComponent {
 
   
-  isOpened = false; // Flag to control sidebar visibility
+  isOpened = true; // Flag to control sidebar visibility
 
   toggleSidebar() {
     this.isOpened = !this.isOpened;

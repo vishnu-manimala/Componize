@@ -1,22 +1,21 @@
 <div class="container-fluid">
-<div class="container d-flex flex-row ">
-  <button class="btn btn-primary m-1" (click)="toggleSidebar()">Toggle Sidebar</button>
-  <div class="dropdown p-2">
-    <button class="btn btn-secondary dropdown-toggle p-1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Dropdown button
-    </button>
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
+<div class="container d-flex flex-row align-content-center ">
+  <button class="btn btn-primary m-1 d-md-none"  (click)="toggleSidebar()">Toggle Sidebar</button>
+  <nav aria-label="..." class="p-1 text-center mt-1">
+    <ul class="pagination pagination-sm">
+      <li class="page-item active" aria-current="page">
+        <span class="page-link">1</span>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
     </ul>
-  </div>
+  </nav>
 </div>
-  <div class="w-100 bg-success vh-100 d-flex flex-row">
-    <div [ngClass]="{'d-none': !isOpened}" class="bg-info vh-100" style="width: 15%;">
+  <div class="w-100  vh-100 d-flex flex-row ">
+    <div [ngClass]="{'d-none': !isOpened}" class="vh-100 shadow m-1" style="width: 20%;">
       <app-sidebar [isSidebarOn]="isOpened"></app-sidebar>
     </div>
-    <div [ngClass]="{'w-100': !isOpened}" class=" bg-secondary vh-100" style="width: 90%;">
+    <div [ngClass]="{'w-100': !isOpened}" class="  vh-100 m-1" style="width: 80%;">
 
     </div>
   </div>

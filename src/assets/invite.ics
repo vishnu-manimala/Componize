@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:IST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20240621T143000
+DTEND;TZID=Asia/Kolkata:20240621T153000
+DTSTAMP:20240621T054038Z
+ORGANIZER;CN=kanez fatma:mailto:kanez@aguaws.com
+UID:004ap6ikbjua502dibcgldn4db@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=vishnumanimala8133@gmail.com;X-NUM-GUESTS=0:mailto:vishnumanimala81
+ 33@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=kanez fatma;X-NUM-GUESTS=0:mailto:kanez@aguaws.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=laharisri2207@gmail.com;X-NUM-GUESTS=0:mailto:laharisri2207@gmail.c
+ om
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=prabhakaranwebdeveloper@gmail.com;X-NUM-GUESTS=0:mailto:prabhakaran
+ webdeveloper@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=OPT-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Manish Rathee;X-NUM-GUESTS=0:mailto:manish@aguaws.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=OPT-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Deepak Surya;X-NUM-GUESTS=0:mailto:deepak2@aguaws.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=aditipatel4m@gmail.com;X-NUM-GUESTS=0:mailto:aditipatel4m@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=OPT-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Mehtab Shaikh;X-NUM-GUESTS=0:mailto:mehtab@aguaws.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/oyy-xyae-xfo
+X-MICROSOFT-CDO-OWNERAPPTID:682358676
+CREATED:20240621T054036Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/oy
+ y-xyae-xfo\nOr dial: (US) +1 424-341-5954 PIN: 298914078#\nMore phone numbe
+ rs: https://tel.meet/oyy-xyae-xfo?pin=1799946904662&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20240621T054036Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:IQRound||Frontend
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
